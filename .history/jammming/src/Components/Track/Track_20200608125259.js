@@ -11,9 +11,6 @@ class Track extends React.Component{
     addTrack(event){
         this.props.onAdd(this.props.track);
     }
-    removeTrack(track){
-        
-    }
     render(){
         return(
             <div className="Track">
